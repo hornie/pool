@@ -48,8 +48,8 @@
         "varDiff": {
             "minDiff": 100,
             "maxDiff": 200000,
-            "targetTime": 100,
-            "retargetTime": 30,
+            "targetTime": 60,
+            "retargetTime": 15,
             "variancePercent": 30,
             "maxJump": 100
         },
@@ -90,10 +90,10 @@
 
     "blockUnlocker": {
         "enabled": true,
-        "interval": 30,
+        "interval": 15,
         "depth": 20,
         "poolFee": 0,
-        "devDonation": 0.5,
+        "devDonation": 0,
         "coreDevDonation": 0,
         "extraFeaturesDevDonation":0
     },
@@ -170,7 +170,7 @@
         "user": {
             "hashrate": {
                 "enabled": true,
-                "updateInterval": 120,
+                "updateInterval": 60,
                 "stepInterval": 1800,
                 "maximumPeriod": 86400
             },
