@@ -19,9 +19,9 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "hB4xYPYuApPhzryTUCzuxXSSn9gY1ZYn3Cj2oZogmdjuRfkKoDz2tSnUhiw8HHQfymEyA23rJuT3z4xptwsiJTk638gHSLLcK",
+        "poolAddress": "hB4MJxFK36fGqnLVN6PpavevXgvq71cpSNp5Q2VrAD2hihh7EBebcGZjohBCgSjh6VAqSw2PW3r75iLNuoRyown72feUCoAYP",
         "blockRefreshInterval": 1000,
-        "minerTimeout": 900,
+        "minerTimeout": 1000,
         "ports": [
             {
                 "port": 3333,
@@ -48,7 +48,7 @@
         "varDiff": {
             "minDiff": 100,
             "maxDiff": 200000,
-            "targetTime": 100,
+            "targetTime": 60,
             "retargetTime": 30,
             "variancePercent": 30,
             "maxJump": 100
@@ -84,7 +84,7 @@
         "mixin": 0,
         "transferFee": 1000000,
         "minPayment": 1000000000,
-        "maxTransactionAmount": 0,
+        "maxTransactionAmount": 30000,
         "denomination": 1000000000
     },
 
@@ -92,7 +92,7 @@
         "enabled": true,
         "interval": 30,
         "depth": 20,
-        "poolFee": 0,
+        "poolFee": 0.1,
         "devDonation": 0,
         "coreDevDonation": 0,
         "extraFeaturesDevDonation":0.1
@@ -101,7 +101,8 @@
     "api": {
         "enabled": true,
         "hashrateWindow": 600,
-        "updateInterval": 5,
+        "updateInterval": 10,
+		"host": "127.0.0.1",
         "port": 8117,
         "blocks": 30,
         "payments": 30,
@@ -139,7 +140,7 @@
         "pool": {
             "hashrate": {
                 "enabled": true,
-                "updateInterval": 60,
+                "updateInterval": 30,
                 "stepInterval": 1800,
                 "maximumPeriod": 86400
             },
@@ -171,7 +172,7 @@
         "user": {
             "hashrate": {
                 "enabled": true,
-                "updateInterval": 180,
+                "updateInterval": 60,
                 "stepInterval": 1800,
                 "maximumPeriod": 86400
             },
