@@ -1,3 +1,6 @@
+This is an old pool repo. Broken and archived. 
+I just figure that I don't have to re-invent the wheel when there are better pool options out there.
+
 cryptonote-forknote-pool
 ====================
 
